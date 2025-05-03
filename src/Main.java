@@ -6,7 +6,7 @@ public class Main {
     }
     public static int fibanachi(int fib) {
         // Scanner scanner1 = new Scanner(System.in);
-        if (fib==2){
+        if ((fib==3) || (fib==2)) {
             return 1;
         } else {
             int fib1 = fibanachi(fib-1)+fibanachi(fib-2);
@@ -73,9 +73,8 @@ public class Main {
                         System.out.println("спасибо");
                         j = 1;
                     }
-                    else {
+                    else
                         System.out.println(ch5);
-                    }
                 }
                 while (j!=1);
             }
@@ -89,3 +88,5 @@ public class Main {
     }
 
 }
+
+
